@@ -1,0 +1,1 @@
+export const KYSELY_CONNECTION = Symbol('KYSELY_CONNECTION');
