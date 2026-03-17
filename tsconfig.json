@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES2022",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "types": ["node", "vitest/globals"],
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "include": ["src", "test", "vitest.config.ts"]
+}
